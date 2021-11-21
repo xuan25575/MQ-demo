@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: boot-haproxy
+  rabbitmq:
+    host: 192.168.10.129
+    # haproxy 配置
+    port: 5671
+    username: root
+    password: 123456
+    virtual-host: /
